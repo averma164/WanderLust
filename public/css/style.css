@@ -82,6 +82,10 @@ body{
     background-color: #fe424d !important;
     border: none !important;
 }
+.display{
+    height: 200px;
+    width: 250px;
+}
 /* Show Page */
 .show-img{
     height: 30vh;
@@ -92,4 +96,10 @@ body{
 .show-card{
     padding-left: 0;
     padding-right: 0;
+}
+/* Map */
+#map {
+  width: 100%;
+  height: 300px;   /* IMPORTANT */
+  border-radius: 10px;
 }
